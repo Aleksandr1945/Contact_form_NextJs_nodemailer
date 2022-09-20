@@ -1,14 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
 .inputGroup {
-    height: 50%;
-    width: 150%;
+    height: 40%;
+    width: 110%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 10px 0;
+    /* margin: 20px 20px 20px 20px; */
+    /* padding-left: 100px; */
   }
   .inputLabel {
     text-align: center;
   }
   .inputField {
     height: 30px;
+    width: 100%;
   }

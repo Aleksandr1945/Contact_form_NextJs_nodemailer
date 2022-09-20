@@ -55,7 +55,7 @@ export default function Form () {
           < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField} />
         </formgroup>
 
-        < input type='submit' onClick={(e)=>{handleSubmit(e)}}/>
+        < input  type='submit' onClick={(e)=>{handleSubmit(e)}}/>
       </form >
     </div>
     )

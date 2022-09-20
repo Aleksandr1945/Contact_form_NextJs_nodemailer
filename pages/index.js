@@ -5,9 +5,6 @@ import Popup from './contact/AppPopup'
 export default function Home() {
   return (
    <>
-    <div className={styles.form}>
-    <Form />
-    </div>
     <div>
       <Popup />
     </div>
