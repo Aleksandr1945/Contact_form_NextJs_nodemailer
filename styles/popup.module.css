@@ -11,13 +11,13 @@
    
   .box {
     position: relative;
-    width: 30%;
+    width: 45%;
     margin: 0 auto;
     height: auto;
     max-height: 40vh;
     margin-top: calc(100vh - 85vh - 20px);
-    background: rgb(178, 191, 178);
-    border-radius: 4px;
+    background: rgb(172, 172, 172);
+    border-radius: 20px;
     padding: 20px;
     border: 5px  rgb(200, 22, 22);
     overflow: 5px auto;
@@ -27,7 +27,7 @@
     content: 'x';
     cursor: pointer;
     position: fixed;
-    right: calc(35% - 20px);
+    right: calc(28% - 20px);
     top: calc(100vh - 85vh - 33px);
     background: #2c0ccdcb;
     color: black;

@@ -38,25 +38,25 @@ export default function Form () {
 
     return (
         <div className={styles.container}>
-      < form className={styles.main} >
+          <form className={styles.main} >
 
-        <formgroup className={styles.inputGroup} >
-          < label htmlFor='name'>Name</label>
-          < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className={styles.inputField} />
-        </formgroup>
+            <formgroup className={styles.inputGroup} >
+              < label htmlFor='name'>Имя</label>
+              < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className={styles.inputField} />
+            </formgroup>
 
-        <formgroup className={styles.inputGroup} >
-          < label htmlFor='email'>Email</label>
-          < input type='email' onChange={(e)=>{setEmail(e.target.value)}} name='email' className={styles.inputField} />
-        </formgroup>
+            <formgroup className={styles.inputGroup} >
+              < label htmlFor='email'>Email</label>
+              < input type='email' onChange={(e)=>{setEmail(e.target.value)}} name='email' className={styles.inputField} />
+            </formgroup>
 
-        <formgroup className={styles.inputGroup} >
-          < label htmlFor='message'>Message</label>
-          < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField} />
-        </formgroup>
+            <formgroup className={styles.inputGroup} >
+              < label htmlFor='message'>Сообщение</label>
+              < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField} />
+            </formgroup>
 
-        < input  type='submit' onClick={(e)=>{handleSubmit(e)}}/>
-      </form >
-    </div>
+            < input className={styles.button}  type='submit' onClick={(e)=>{handleSubmit(e)}}/>
+          </form>
+        </div>
     )
 }
